@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Hotspots', 'PV-modules']
+
+roboflow:
+  workspace: ucsb-capstone-teledyne-flir-solar-isotherms
+  project: pv-module-detection
+  version: 20
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ucsb-capstone-teledyne-flir-solar-isotherms/pv-module-detection/dataset/20
