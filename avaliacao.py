@@ -7,7 +7,7 @@ def evaluate_model(model_path, data_path='data.yaml'):
 
 if __name__ == "__main__":
     print("Avaliando modelo original:")
-    evaluate_model('runs\\train\yolov11-greenIA2\weights\\best.pt')
+    evaluate_model('runs/train/yolov11-greenIA2/weights/best.pt')
 
     print("Avaliando modelo podado:")
     evaluate_model('yolo11n_pruned.pt')

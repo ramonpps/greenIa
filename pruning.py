@@ -2,7 +2,7 @@ import torch
 from ultralytics import YOLO
 from torch.nn.utils import prune
 
-original_yolo_model = YOLO('runs\\train\yolov11-greenIA2\weights\\best.pt')
+original_yolo_model = YOLO('runs/train/yolov11-greenIA2/weights/best.pt')
 model_to_prune = original_yolo_model.model
 
 def pruning(model, amount=0.2):
