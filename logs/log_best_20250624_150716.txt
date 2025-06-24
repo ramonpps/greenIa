@@ -1,0 +1,7 @@
+
+📊 Avaliação do modelo: best
+  Precision:  0.8316
+  Recall:     0.7933
+  mAP@50:     0.7965
+  mAP@50-95:  0.4904
+  F1 Score:   0.8120
