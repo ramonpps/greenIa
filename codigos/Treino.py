@@ -5,14 +5,14 @@ def treinar_modelo():
     model = YOLO("../modelos/yolo11n.pt")
 
     model.train(
-        data='data.yaml',  
+        data='../data.yaml',  
         epochs=50,
         imgsz=640,
         batch=-1,
         name='yolov11-greenIA',
         project='runs/train',
         workers=20,
-        device = 'cuda'
+        device = 'cpu'
     )
     
 
