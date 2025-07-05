@@ -1,0 +1,7 @@
+
+📊 Avaliação do modelo: yolo11n_pruned
+  Precision:  0.5697
+  Recall:     0.1417
+  mAP@50:     0.0618
+  mAP@50-95:  0.0232
+  F1 Score:   0.2270
